@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&family=Merriweather:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+
+body {
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+    font-family:  'Lato', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #E0E0E0;
+    text-align: right;
+    font-size: 33px;
+    height: 123px;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 26px;
+}
+nav img{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top:20px;
+    left:30px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #E0E0E0;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+nav ul li a:hover{
+    color: #ffffff;
+    transition: 2s;
+    text-decoration: underline;
+    
+}
+
+.banner {
+    text-align: center;
+    color: #E0E0E0;
+}
+.about {
+    height: 450px;
+    padding-top: 200px;
+}
+.services {
+    padding-top: 400px;
+    padding-bottom: 600px;
+    height: 650px;
+}
+
+.about, .services {
+    margin: 20px auto;
+    max-width: 800px;
+
+}
+
+.about h2, .services h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #E0E0E0;
+}
+.about h2, .about p, .services h2, .services ul li{
+    color: #E0E0E0;
+}
+
+.services ul {
+    list-style: none;
+
+}
+
+.services ul li {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    margin-top: 20px;
+}
+.about img {
+    height: 500px;
+    width: 300px;
+    float: right;
+    position: absolute;
+    right: 30px;
+    top: 450px;
+
+}
+.about p {
+    text-align: left;
+    position: relative;
+    right: 200px;
+    font-size: 20px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three columns of equal width */
+  .columns {
+    float: left;
+    width: 250px;
+    height: 250px;
+    padding: 8px;
+    margin: 5px;
+  }
+  
+  /* Style the list */
+  .price {
+    list-style-type: none;
+    border: 1.5px solid #ffffff;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  /* The "Sign Up" button */
+  .button {
+    background-color: #293241;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Change the width of the three columns to 100%
+  (to stack horizontally on small screens) */
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
+.services img {
+    width: 100%;
+    height: 95%;
+    align-items: center;
+
+}
+.container {
+    width: 50%;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+h2 {
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group textarea {
+    height: 150px;
+}
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #293241;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #3d5a80;
+}
